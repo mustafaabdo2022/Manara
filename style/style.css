@@ -581,5 +581,83 @@ a.btn-white.border.font-bold.text-lg.flex.justify-center.items-center.w-60.h-20 
     }
 
     /* Start-Footer */
+/* Media */
+    @media (max-width: 720px) {
+        .left-quote, .right-quote {
+            width: 500px;
+            height: 250px;
+            background: var(--bg-color);
+            display: block;
+            position: relative;
+            margin-right: 35px;
+            margin-left: 80px;
+            margin-top: 50px;
+            margin-bottom: 85px;
+            border-radius: 10px;
+            padding: 40px;
+        }   
+
+        .quote img.brand {
+            padding-top: 34px;
+            position: relative;
+            width: 100px;
+            float: right;
+            margin-top: -58px;
+            margin-right: -24px;
+        }
+    
+        img.img\.quote {
+            position: absolute;
+            display: flex;
+            margin-top: 0px;
+            margin-left: 25px;
+        }
+    
+        .quote p {
+            font-weight: 800;
+            font-size: 16px;
+            margin-top: -10px;
+            margin-left: 31px;
+        }
+    
+        .quote .manager {
+            font-weight: 400;
+        }
+    
+        .quote span {
+            font-weight: bold;
+            margin-left: 73px;
+        }
+    
+        img.lider-team {
+            border-radius: 50%;
+            border-color: var(--main-color);
+            border-style: solid;
+            position: absolute;
+            justify-content: center;
+            display: flex;
+            margin-left: -91px;
+            width: 111px;
+            margin-top: -275px;
+        }
+
+        .manger-left {
+            width: 450px;
+            height: 407px;
+            background: var(--tow-color);
+            border-radius: 2%;
+            margin-left: 135px;
+            margin-top: -48px;
+        }
+
+        .manger-right {
+            width: 450px;
+            height: 407px;
+            background: var(--main-color);
+            border-radius: 2%;
+            margin-left: 135px;
+            margin-top: 19px;
+        }
+    }
     
     
